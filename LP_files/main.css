@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic');
+body
+{
+    font-family: 'Droid Serif';
+}
+h1,
+h2,
+h3
+{
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: normal;
+}
+.remark-code,
+.remark-inline-code
+{
+    font-family: 'Ubuntu Mono';
+}
+body
+{
+    font-family: 'Droid Serif';
+}
+h1,
+h2,
+h3
+{
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 400;
+
+    margin-bottom: 0;
+}
+.remark-slide-content h1
+{
+    font-size: 3em;
+}
+.remark-slide-content h2
+{
+    font-size: 2em;
+}
+.remark-slide-content h3
+{
+    font-size: 1.6em;
+}
+.footnote
+{
+    position: absolute;
+    bottom: 3em;
+}
+li p
+{
+    line-height: 1.25em;
+}
+.red
+{
+    color: #fa0000;
+}
+.large
+{
+    font-size: 2em;
+}
+a,
+a > code
+{
+    text-decoration: none;
+
+    color: #f92672;
+}
+code
+{
+    border-radius: 5px;
+    background: #e7e8e2;
+}
+.remark-code,
+.remark-inline-code
+{
+    font-family: 'Ubuntu Mono';
+}
+.remark-code-line-highlighted
+{
+    background-color: #373832;
+}
+.pull-left
+{
+    float: left;
+
+    width: 47%;
+}
+.pull-right
+{
+    float: right;
+
+    width: 47%;
+}
+.pull-right ~ p
+{
+    clear: both;
+}
+#slideshow .slide .content code
+{
+    font-size: .8em;
+}
+#slideshow .slide .content pre code
+{
+    font-size: .9em;
+
+    padding: 15px;
+}
+.inverse
+{
+    color: #777872;
+    background: #272822;
+    text-shadow: 0 0 20px #333;
+}
+.inverse h1,
+.inverse h2
+{
+    line-height: .8em;
+
+    color: #f3f3f3;
+}
+#slide-inverse .footnote
+{
+    bottom: 12px;
+    left: 20px;
+}
+#slide-how .slides
+{
+    font-size: .9em;
+
+    position: absolute;
+    top: 151px;
+    right: 140px;
+}
+#slide-how .slides h3
+{
+    margin-top: .2em;
+}
+#slide-how .slides .first,
+#slide-how .slides .second
+{
+    width: 120px;
+    height: 90px;
+    padding: 1px 20px;
+
+    box-shadow: 0 0 10px #777;
+}
+#slide-how .slides .first
+{
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 20%;
+
+    background: #fff;
+}
+#slide-how .slides .second
+{
+    position: relative;
+    z-index: 0;
+
+    background: #fff;
+}
+.left-column
+{
+    float: left;
+
+    width: 20%;
+    height: 92%;
+
+    color: #777;
+}
+.left-column h2:last-of-type,
+.left-column h3:last-child
+{
+    color: #000;
+}
+.right-column
+{
+    float: right;
+
+    width: 75%;
+    padding-top: 1em;
+}
+.s
+{
+    font-size: small;
+}
+.sm
+{
+    font-size: small;
+}
+.xs
+{
+    font-size: x-small;
+}
+.xxs
+{
+    font-size: xx-small;
+}
+.xl
+{
+    font-size: x-large;
+}
+.xxl
+{
+    font-size: xx-large;
+}
+body
+{
+    line-height: 1.4;
+}
+pre
+{
+    line-height: 1;
+}
+.sepimg
+{
+    padding-right: 1em;
+}
+.sep
+{
+    margin-top: 1em;
+}
+.remark-slide-content
+{
+    padding-top: 0;
+    padding-right: 2em;
+    padding-bottom: 0;
+    padding-left: 2em;
+}
+.remark-slide-number
+{
+    visibility: hidden;
+}
+.remark-slide-content h1
+{
+    margin-top: .2em;
+}
+.remark-slide-content h2
+{
+    font-size: 1.4em;
+    font-weight: bold;
+
+    margin-top: 0;
+}
+.col1
+{
+    float: left;
+
+    margin-right: 1em;
+
+    flex: 1;
+}
+.col2
+{
+    float: right;
+
+    margin-left: 1em;
+
+    flex: 1;
+}
+.cols5050
+{
+    display: flex;
+}
+.cols5050 .col1
+{
+    width: 50%;
+}
+.cols5050 .col2
+{
+    width: 50%;
+}
+.cols6040
+{
+    display: flex;
+}
+.cols6040 .col1
+{
+    width: 60%;
+}
+.cols6040 .col2
+{
+    width: 40%;
+}
+.cols4060
+{
+    display: flex;
+}
+.cols4060 .col1
+{
+    width: 60%;
+}
+.cols4060 .col2
+{
+    width: 40%;
+}
+.col13
+{
+    float: left;
+
+    margin-right: 1em;
+
+    flex: 1;
+}
+.col23
+{
+    float: left;
+
+    margin-right: 1em;
+
+    flex: 1;
+}
+.col33
+{
+    float: left;
+
+    margin-right: 1em;
+
+    flex: 1;
+}
+.cols303030
+{
+    display: flex;
+}
+.cols303030 .col13
+{
+    width: 30%;
+}
+.cols303030 .col23
+{
+    width: 30%;
+}
+.cols303030 .col33
+{
+    width: 30%;
+}
+.my-inverse
+{
+    padding: .01em;
+
+    color: #fff;
+    background: #696969;
+}
+.my-center
+{
+    text-align: center;
+}
+.blue
+{
+    color: #00f;
+}
